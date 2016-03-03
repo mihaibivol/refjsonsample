@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "properties": {
+        "record": {
+            // Here $ref is jsonschema ref so we don't have to write 10 lines
+            // for each recid
+            "$ref": "file:///home/mihai/src/testvalidator/jsonrec.json"
+        }
+    },
+    "type": "object",
+    "required": ["record"]
+}
