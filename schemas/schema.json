@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/schema#",
     "properties": {
         "record": {
-            "$ref": "http://localhost:8000/schemas/refschema.json"
+            "$ref": "refschema.json"
         },
         "name": {
             "type": "string"
