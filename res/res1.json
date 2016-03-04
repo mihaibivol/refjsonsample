@@ -1,0 +1,4 @@
+{
+    "$schema": "http://localhost:8000/schemas/schema.json",
+    "record": {"$ref": "http://localhost:8000/res/res2.json"}
+}

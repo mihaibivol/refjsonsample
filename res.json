@@ -1,5 +1,0 @@
-{
-    "$schema": "schema.json",
-    // here $ref is parsed by refjson package from pip
-    "record": {"$ref": "something.html"}
-}

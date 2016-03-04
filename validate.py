@@ -1,9 +1,15 @@
 #!/usr/bin/env python
 
-import commentjson as json
+import json
 import jsonschema
 
-res = json.load(open('./res.json'))
-schema = json.load(open('./schema.json'))
+res1 = json.load(open('./res/res1.json'))
+res2 = json.load(open('./res/res1.json'))
+schema = json.load(open('./schemas/schema.json'))
 
-print jsonschema.validate(res, schema)
+print jsonschema.validate(res1, schema)
+print jsonschema.validate(res2, schema)
+
+import jsonref
+res = jsonref.load(open('./res/res1.json'))
+print res
