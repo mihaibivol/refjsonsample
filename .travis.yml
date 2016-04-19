@@ -32,7 +32,8 @@ language: python
 
 matrix:
   include:
-    - install: false
+    - before_install: echo "Nothing to pre-install"
+      install: echo "Nothing to install"
       script: echo "No install required for this"
     - install: true
       env: SUITE=unit
