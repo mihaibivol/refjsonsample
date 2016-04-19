@@ -31,7 +31,7 @@ sudo: false
 language: python
 
 matrix:
-  - include:
+  include:
     - install: false
       script: echo "No install required for this"
     - install: true
